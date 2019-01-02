@@ -80,7 +80,6 @@ class Game extends React.Component {
         },
         symbol: squares[i],
       }]),
-      lastPosition: i,
       stepNumber: history.length,
       xIsNext: !this.state.xIsNext,
     });
